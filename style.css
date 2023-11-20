@@ -2,7 +2,8 @@
 
 .navbar {
   padding: 2rem;
-  background-color: #f5f6f7;
+  background-color: aqua;
+
 }
 
 .navbar-collapse {
@@ -25,7 +26,7 @@ h1 {
 }
 
 .seccion-oscura {
-  color: white;
+  color: black;
   background-color: #1b1b32;
 }
 
@@ -90,12 +91,12 @@ h1 {
 .sobre-mi {
   height: 500px;
   padding: 10px;
+  background-color: aqua;
 }
 
 .sobre-mi .contenedor {
   max-width: 600px;
   text-align: center;
-  background-color: ;
 
 }
 
@@ -267,7 +268,7 @@ h1 {
 
 .contacto .rectangulo {
   margin-top: -5rem;
-  background-color: rgb(13, 110, 253);
+  background-color:black;
   border-radius: 10px;
   box-shadow: 0px 1px 4px 1px white;
 }
@@ -276,6 +277,7 @@ h1 {
   width: 100%;
   display: flex;
   align-items: center;
+  color: white;
 }
 
 .contacto .descripcion {
@@ -313,6 +315,8 @@ h1 {
 
 footer {
   min-height: 500px;
+  
+
 }
 
 .footer-logo {
@@ -326,6 +330,10 @@ footer {
   padding: 20px;
   margin-bottom: 30px;
   font-family: 'Quicksand', sans-serif;
+  color: white;
+
+
+
 }
 
 .iconos-redes-sociales a {
@@ -350,16 +358,19 @@ footer {
 .iconos-redes-sociales a:hover {
   background-color: white;
   border: 2px solid rgb(13, 110, 253);
+  
 }
 
 .iconos-redes-sociales a:hover i {
   color: black;
+  
 }
 
 .derechos-de-autor {
   font-size: 15px;
   color: #aeaeae;
   padding: 20px;
+
 }
 
 /* Adaptable (Responsivo) */
